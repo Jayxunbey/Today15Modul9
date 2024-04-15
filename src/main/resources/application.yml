@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/today15
+    username: postgres
+    password: Jayxunbey2003
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  security:
+    jwt:
+      exprire-sec: 180
+      secret-key: SmF5eHVuYmVkjkiOOJjlklklknuogJOKJHIHjHIoj5
